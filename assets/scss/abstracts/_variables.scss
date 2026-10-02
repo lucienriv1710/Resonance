@@ -1,0 +1,89 @@
+// ==========================================================================
+// ABSTRACTS / VARIABLES (_variables.scss)
+// ==========================================================================
+
+// --------------------------------------------------------------------------
+// 1. Couleurs (nommées selon leur RÔLE et non leur teinte)
+// --------------------------------------------------------------------------
+
+// Neutres / Texte & Arrière-plans
+$color-text-main:        #1C1B2E; // Texte principal / Sombre
+$color-text-body:        #3A3950; // Texte courant
+$color-text-muted:       #6B6A80; // Texte secondaire / Atténué
+$color-bg-page:          #FFFFFF; // Fond de page principal
+$color-bg-alt:           #F4F5F7; // Fond alterné / Carte
+$color-border-subtle:    #E3E5EA; // Bordure discrète
+$color-border-input:     #CBD0D8; // Bordure de champ
+
+// Couleurs d'action & Marque
+$color-primary:          #CB402A; // Couleur principale (Bouton/Lien)
+$color-primary-hover:    #A3311F; // Principale au survol
+$color-accent:           #F4C95D; // Couleur d'accent (Jaune)
+$color-danger:           #B3261E; // Couleur d'erreur / Alerte
+
+// Thèmes des Scènes
+$color-scene-lac:        #1F4E8C; // Scène du Lac
+$color-scene-foret:      #2F6B3A; // Scène de la Forêt
+$color-scene-kiosque:    #B87A1E; // Le Kiosque
+
+
+// --------------------------------------------------------------------------
+// 2. Typographie (Font Family, Tailles, Graisses, Interlignes)
+// --------------------------------------------------------------------------
+
+$font-family-base:       'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+// Échelle typographique : font-size / line-height / font-weight
+$font-title-main-size:   56px;
+$font-title-main-lh:     64px;
+$font-title-main-weight: 800;
+
+$font-title-section-size: 40px;
+$font-title-section-lh:   48px;
+$font-title-section-weight: 700;
+
+$font-subtitle-size:     28px;
+$font-subtitle-lh:       36px;
+$font-subtitle-weight:   700;
+
+$font-intro-size:        20px;
+$font-intro-lh:          32px;
+$font-intro-weight:      400;
+
+$font-body-size:         16px;
+$font-body-lh:           26px;
+$font-body-weight:       400;
+
+$font-caption-size:      14px;
+$font-caption-lh:        22px;
+$font-caption-weight:    400;
+
+
+// --------------------------------------------------------------------------
+// 3. Échelle des Espacements
+// --------------------------------------------------------------------------
+
+$spacing-xs:             8px;
+$spacing-sm:             16px;
+$spacing-md:             24px;
+$spacing-lg:             40px;
+$spacing-xl:             64px;
+
+
+// --------------------------------------------------------------------------
+// 4. Rayons de bordure (Border Radius)
+// --------------------------------------------------------------------------
+
+$radius-sm:              6px;
+$radius-md:              12px;
+$radius-pill:            999px; // Pour les badges et boutons pilules
+
+
+// --------------------------------------------------------------------------
+// 5. Points de rupture (Breakpoints pour le Responsive)
+// --------------------------------------------------------------------------
+
+$breakpoint-mobile:      576px;  // Écrans mobiles
+$breakpoint-tablet:      768px;  // Tablettes
+$breakpoint-desktop:     1024px; // Bureau / Laptop
+$breakpoint-wide:        1200px; // Écrans larges
